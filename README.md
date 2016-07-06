@@ -4,7 +4,10 @@ Seamlessly record your activities in a journal while you work, by making a copy 
 
 ## Install
 
-`npm i -g clip-journal`
+```sh
+npm i -g electron
+npm i -g clip-journal
+```
 
 ## Usage
 
@@ -12,8 +15,7 @@ You can start a journal anywhere. Just provide the path to a markdown file (it w
 
 ```sh
 mkdir my-journal
-cd my-journal
-clip index.md
+clip my-journal/index.md
 ```
 
 Now whenever you copy some text to the clipboard it will be appended to `index.md`, and if you copy an image it will be saved to the directory and embedded in the markdown file.
