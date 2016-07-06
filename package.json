@@ -1,0 +1,22 @@
+{
+  "name": "clip-journal",
+  "version": "1.0.0",
+  "description": "Seamlessly record your activities in a journal while you work.",
+  "main": "index.js",
+  "bin": {
+    "clip": "./bin/clip.js"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "joshwnj",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^0.4.1",
+    "electron-clipboard-watcher": "^1.0.0",
+    "minimist": "^1.2.0",
+    "node-notifier": "^4.6.0"
+  }
+}
