@@ -5,7 +5,7 @@ Seamlessly record your activities in a journal while you work, by making a copy 
 ## Install
 
 ```sh
-npm i -g electron
+npm i -g electron-prebuilt
 npm i -g clip-journal
 ```
 
